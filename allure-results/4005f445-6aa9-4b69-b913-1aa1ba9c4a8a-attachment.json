@@ -1,0 +1,13 @@
+{
+  "street1": "Value",
+  "street2": "Test",
+  "city": "Mysore",
+  "state": "dssd",
+  "zip": 57112,
+  "country": "India",
+  "home": 1234567890,
+  "mobile": 9876543210,
+  "work": 1120000000,
+  "workEmail": "work@test.com",
+  "otherEmail": "other@test.com"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "playwright_begining",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "npm run test:bdd",
+    "test:bdd": "bddgen && playwright test",
+    "test:headed": "bddgen && playwright test --headed",
+    "test:report": "bddgen && playwright test --reporter=html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.4",
+    "playwright-bdd": "^9.2.1"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
